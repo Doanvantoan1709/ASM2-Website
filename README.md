@@ -17,14 +17,14 @@ edit .env
 enter email into .env
 
 experiment
-MAIL_MAILER=smtp
-MAIL_HOST=smtp.gmail.com
-MAIL_PORT=587
-MAIL_USERNAME=enter your gmail
-MAIL_PASSWORD=rxlstcsrnuuszvdd (app password - google)
-MAIL_ENCRYPTION=tls
-MAIL_FROM_ADDRESS=enter email
-MAIL_FROM_NAME="${APP_NAME}"
+MAIL_MAILER=smtp<br>
+MAIL_HOST=smtp.gmail.com<br>
+MAIL_PORT=587<br>
+MAIL_USERNAME=enter your gmail<br>
+MAIL_PASSWORD=rxlstcsrnuuszvdd (app password - google)<br>
+MAIL_ENCRYPTION=tls<br>
+MAIL_FROM_ADDRESS=enter email<br>
+MAIL_FROM_NAME="${APP_NAME}"<br>
 
 php artisan service
 
