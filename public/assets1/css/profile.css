@@ -1,0 +1,58 @@
+
+
+.PF{
+    background-color: rgb(255, 215, 82);
+    display: flex;
+    justify-content: center; /* căn theo chiều ngang */
+    align-items: center; /* căn theo chiều dọc */
+    height: 70vh; /* Chiều cao 100% của viewport */
+    
+}
+.row{
+    background-color: rgb(255, 255, 255);
+    border-radius: 5px;
+
+}
+.form-control:focus {
+    box-shadow: none;
+    border-color: rgb(255, 243, 79)
+}
+
+.profile-button {
+    background-color: rgb(11, 154, 231);
+    border: none;
+    border-radius: 5px;
+    color: white;
+    padding: 10px 20px; /* Kích thước lề nút */
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-top: 12x; /* Khoảng cách giữa nút và phần còn lại của form */
+    cursor: pointer;
+    transition: background-color 0.3s ease; /* Hiệu ứng chuyển đổi màu nền */
+}
+
+.profile-button:hover {
+    background-color: rgb(0, 10, 193);
+}
+
+
+.add-experience:hover {
+    background: #edf518;
+    color: #fff;
+    cursor: pointer;
+    border: solid 1px rgb(11, 154, 231)
+}
+
+.text-right{
+    text-align: center;
+}
+
+button{
+    margin: 10px auto;
+}
+
+.user{
+    margin-top: 80px;
+}
