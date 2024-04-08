@@ -37,9 +37,7 @@ Change Password
 Update product files
 Add products to the row
 Product updates
-Order check out
 Forgot password (Forgot password will send a link to the email and when the user clicks it will go to the password reset form)
-
 - About admin
 Log in
 Add - edit - delete products
